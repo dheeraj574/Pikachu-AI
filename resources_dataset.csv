@@ -1,0 +1,157 @@
+subject,unit,topic,difficulty,importance,resource_type,exam_frequency,rating,downloads
+Data Structures,Unit 1,Arrays,Easy,Low,PPT,4,4.3,164
+Data Structures,Unit 1,Linked Lists,Medium,Medium,Video,9,4.86,456
+Data Structures,Unit 1,Stacks,Medium,Low,PPT,2,3.84,84
+Data Structures,Unit 1,Queues,Medium,Medium,Book,8,4.37,230
+Data Structures,Unit 1,Trees,Medium,Medium,Notes,7,5.0,136
+Data Structures,Unit 1,Binary Search Trees,Medium,Low,Book,5,3.73,147
+Data Structures,Unit 1,Heaps,Easy,Very High,Notes,4,4.81,90
+Data Structures,Unit 1,Hashing,Easy,High,PPT,1,4.07,477
+Data Structures,Unit 1,Graphs,Hard,Medium,Notes,10,3.75,98
+Operating Systems,Unit 1,Process Management,Medium,High,Notes,8,4.5,210
+Operating Systems,Unit 2,Memory Management,Hard,Very High,PPT,9,4.2,180
+Operating Systems,Unit 3,File Systems,Medium,Medium,Video,5,4.0,150
+Database Management,Unit 1,ER Diagrams,Easy,High,PPT,7,4.6,320
+Database Management,Unit 2,Normalization,Hard,Critical,Notes,10,4.9,500
+Database Management,Unit 3,SQL Queries,Medium,High,Video,8,4.7,400
+Computer Networks,Unit 1,OSI Model,Medium,High,Notes,9,4.4,280
+Computer Networks,Unit 2,TCP/IP,Hard,Critical,PPT,10,4.8,350
+Software Engineering,Unit 1,Agile Methodology,Easy,Medium,Video,4,4.1,120
+Software Engineering,Unit 2,SDLC Models,Medium,High,Notes,7,4.3,190
+Theory of Computation,Unit 1,Finite Automata,Hard,High,Notes,8,4.0,110
+Theory of Computation,Unit 2,Context Free Grammars,Hard,High,PPT,7,3.9,95
+Artificial Intelligence,Unit 1,Search Algorithms,Medium,High,Video,6,4.5,230
+Artificial Intelligence,Unit 2,Neural Networks,Hard,Very High,Notes,9,4.7,310
+Cloud Computing,Unit 1,Virtualization,Medium,Medium,PPT,5,4.2,140
+Cloud Computing,Unit 2,AWS Services,Easy,High,Video,8,4.6,260
+Cyber Security,Unit 1,Cryptography,Hard,Critical,Notes,10,4.8,380
+Cyber Security,Unit 2,Network Security,Medium,High,PPT,7,4.4,220
+Data Structures,Unit 2,Graph Traversal BFS,Easy,Very High,PYQ,2,4.82,108
+Data Structures,Unit 2,Graph Traversal DFS,Medium,Low,PYQ,4,4.22,467
+Data Structures,Unit 3,Shortest Path Algorithms,Easy,Very High,PPT,8,4.86,164
+Data Structures,Unit 4,Minimum Spanning Tree,Medium,Low,Notes,1,4.1,315
+Data Structures,Unit 4,Sorting Algorithms,Medium,Very High,Video,6,4.46,90
+Data Structures,Unit 5,Searching Algorithms,Medium,Low,Video,7,3.85,262
+Data Structures,Unit 5,Dynamic Programming,Easy,Low,Video,10,4.37,118
+Data Structures,Unit 5,Greedy Algorithms,Easy,Very High,PPT,6,4.39,109
+DBMS,Unit 1,ER Model,Easy,Low,Book,3,4.8,421
+DBMS,Unit 1,Relational Model,Hard,High,Book,6,4.91,489
+DBMS,Unit 2,SQL Basics,Easy,High,Video,7,4.14,286
+DBMS,Unit 2,Joins,Easy,Very High,PPT,4,4.98,373
+DBMS,Unit 3,Normalization,Easy,High,PPT,1,4.93,330
+DBMS,Unit 3,Functional Dependencies,Medium,Very High,Book,2,4.06,474
+DBMS,Unit 3,Transactions,Hard,Medium,Video,3,4.93,122
+DBMS,Unit 4,Concurrency Control,Easy,Low,Video,9,3.96,268
+DBMS,Unit 4,Deadlocks,Easy,Medium,PYQ,9,4.2,489
+DBMS,Unit 5,Indexing,Medium,Medium,PPT,9,4.33,374
+DBMS,Unit 5,Query Optimization,Medium,High,Video,1,4.43,51
+DBMS,Unit 5,NoSQL,Medium,Medium,Book,8,4.41,395
+DBMS,Unit 5,Distributed Databases,Easy,Medium,Notes,10,3.79,88
+Operating Systems,Unit 1,Process Concept,Hard,High,PYQ,5,3.82,177
+Operating Systems,Unit 1,Process Scheduling,Medium,High,Book,1,4.45,71
+Operating Systems,Unit 2,Threads,Easy,High,Book,5,4.51,65
+Operating Systems,Unit 2,CPU Scheduling,Easy,Medium,Video,7,4.08,59
+Operating Systems,Unit 2,Deadlocks,Hard,Medium,Book,3,3.8,386
+Operating Systems,Unit 2,Memory Management,Hard,Medium,Notes,5,4.43,419
+Operating Systems,Unit 2,Paging,Medium,High,PYQ,4,4.84,221
+Operating Systems,Unit 2,Segmentation,Hard,Medium,Book,6,4.73,495
+Operating Systems,Unit 3,Virtual Memory,Easy,Medium,Video,5,3.78,348
+Operating Systems,Unit 4,File Systems,Medium,Low,Book,4,4.17,319
+Operating Systems,Unit 5,Disk Scheduling,Hard,Very High,PPT,8,4.77,376
+Operating Systems,Unit 5,Synchronization,Easy,Low,PYQ,9,4.68,336
+Computer Networks,Unit 1,OSI Model,Easy,High,PPT,2,4.04,150
+Computer Networks,Unit 1,TCP/IP,Medium,High,PPT,10,4.68,127
+Computer Networks,Unit 1,Physical Layer,Hard,Medium,PYQ,5,4.99,308
+Computer Networks,Unit 2,Data Link Layer,Medium,Very High,Book,2,4.14,237
+Computer Networks,Unit 2,MAC Protocols,Medium,Medium,Video,4,3.55,211
+Computer Networks,Unit 3,IP Addressing,Medium,High,Video,10,4.24,64
+Computer Networks,Unit 3,Routing Algorithms,Easy,Very High,Book,5,3.68,225
+Computer Networks,Unit 3,Transport Layer,Easy,High,Book,3,4.6,475
+Computer Networks,Unit 3,TCP,Easy,Low,PYQ,1,4.82,471
+Computer Networks,Unit 3,UDP,Medium,High,PYQ,7,4.34,148
+Computer Networks,Unit 4,Congestion Control,Medium,Low,PPT,5,4.46,365
+Computer Networks,Unit 5,Network Security,Medium,High,Book,1,4.96,467
+Computer Networks,Unit 5,Application Layer,Hard,Medium,Book,6,4.29,53
+COA,Unit 1,Number Systems,Hard,Low,Video,7,4.33,331
+COA,Unit 2,Boolean Algebra,Easy,Very High,Book,9,4.03,159
+COA,Unit 2,Logic Gates,Medium,High,Video,8,4.21,238
+COA,Unit 2,Combinational Circuits,Easy,High,Video,2,4.82,376
+COA,Unit 3,Sequential Circuits,Easy,Low,Book,9,4.39,479
+COA,Unit 3,ALU,Medium,Very High,PYQ,9,4.14,118
+COA,Unit 4,Registers,Hard,High,Book,2,4.06,227
+COA,Unit 4,Instruction Cycle,Easy,High,Notes,2,3.65,415
+COA,Unit 4,Addressing Modes,Easy,Medium,Video,6,3.59,270
+COA,Unit 4,Pipeline,Easy,High,Notes,4,4.64,50
+COA,Unit 5,Cache Memory,Hard,Low,Video,5,4.74,148
+COA,Unit 5,Virtual Memory,Hard,Low,PPT,3,4.81,75
+COA,Unit 5,IO Organization,Hard,Medium,PYQ,8,3.7,385
+Automata,Unit 1,Finite Automata,Easy,Very High,Book,4,3.54,328
+Automata,Unit 1,DFA,Medium,Very High,Book,3,4.3,422
+Automata,Unit 1,NFA,Medium,Low,Video,10,4.31,212
+Automata,Unit 1,Regular Expressions,Medium,Very High,Notes,6,4.42,319
+Automata,Unit 1,Pumping Lemma,Hard,Low,Video,8,3.99,424
+Automata,Unit 1,Context Free Grammar,Medium,High,Notes,6,4.34,364
+Automata,Unit 1,Pushdown Automata,Hard,Medium,PYQ,8,4.98,151
+Automata,Unit 2,Turing Machines,Medium,High,Notes,8,4.23,280
+Automata,Unit 2,Decidability,Hard,Very High,Video,7,4.79,213
+Automata,Unit 3,Chomsky Hierarchy,Medium,Low,Notes,5,3.61,368
+Compiler Design,Unit 1,Compiler Structure,Easy,High,Notes,2,4.11,236
+Compiler Design,Unit 1,Lexical Analysis,Hard,Low,Video,10,4.14,463
+Compiler Design,Unit 1,Token,Medium,Medium,Notes,9,3.97,320
+Compiler Design,Unit 2,Parsing,Hard,Low,PPT,7,4.12,160
+Compiler Design,Unit 3,Top Down Parsing,Hard,Very High,Video,3,4.87,151
+Compiler Design,Unit 4,Bottom Up Parsing,Hard,Very High,Book,8,3.94,385
+Compiler Design,Unit 5,Syntax Trees,Hard,High,PYQ,7,4.68,224
+Compiler Design,Unit 5,Intermediate Code,Hard,Very High,Video,10,3.87,391
+Compiler Design,Unit 5,Code Optimization,Hard,Medium,Notes,5,4.54,238
+Compiler Design,Unit 5,Code Generation,Hard,Low,Video,3,4.71,115
+Compiler Design,Unit 5,YACC,Hard,Low,Video,1,3.58,89
+Compiler Design,Unit 5,LEX,Hard,Very High,Notes,6,3.87,86
+Artificial Intelligence,Unit 1,Search Algorithms,Easy,Low,Book,9,4.18,393
+Artificial Intelligence,Unit 2,BFS,Medium,Low,Notes,2,4.88,81
+Artificial Intelligence,Unit 2,DFS,Easy,Low,PYQ,3,4.98,60
+Artificial Intelligence,Unit 2,A Star,Easy,Low,Video,5,4.64,340
+Artificial Intelligence,Unit 2,Heuristics,Medium,High,Video,10,4.05,245
+Artificial Intelligence,Unit 2,Knowledge Representation,Easy,High,Book,4,4.56,80
+Artificial Intelligence,Unit 2,Expert Systems,Easy,Medium,Video,6,4.32,398
+Artificial Intelligence,Unit 2,Machine Learning Intro,Hard,Medium,Video,8,4.82,258
+Artificial Intelligence,Unit 3,Neural Networks,Medium,Very High,Notes,7,3.73,57
+Artificial Intelligence,Unit 3,NLP Basics,Hard,Medium,Video,4,3.67,422
+Artificial Intelligence,Unit 3,Planning,Medium,High,Video,4,4.85,240
+Artificial Intelligence,Unit 4,Reasoning,Hard,Medium,Notes,5,3.77,379
+Design and Analysis of Algorithms,Unit 1,Asymptotic Analysis,Easy,Medium,PYQ,9,3.69,280
+Design and Analysis of Algorithms,Unit 1,Recurrence Relations,Medium,Low,Video,4,4.82,482
+Design and Analysis of Algorithms,Unit 1,Divide and Conquer,Hard,Medium,Notes,10,4.3,83
+Design and Analysis of Algorithms,Unit 1,Greedy,Medium,Low,Video,6,4.98,308
+Design and Analysis of Algorithms,Unit 2,Dynamic Programming,Hard,Medium,Book,7,3.82,353
+Design and Analysis of Algorithms,Unit 2,Backtracking,Hard,Low,PPT,2,3.52,286
+Design and Analysis of Algorithms,Unit 2,Branch and Bound,Hard,Low,Book,9,4.35,481
+Design and Analysis of Algorithms,Unit 2,Graph Algorithms,Easy,High,PYQ,2,4.13,467
+Design and Analysis of Algorithms,Unit 3,NP Complete,Hard,High,Book,5,4.49,459
+Design and Analysis of Algorithms,Unit 3,Approximation Algorithms,Hard,Low,PPT,3,3.71,409
+Web Development,Unit 1,HTML,Medium,Medium,PPT,8,4.62,328
+Web Development,Unit 1,CSS,Hard,Low,Video,2,4.36,452
+Web Development,Unit 2,JavaScript,Hard,Low,PPT,4,4.51,469
+Web Development,Unit 2,DOM,Hard,High,PPT,9,3.8,116
+Web Development,Unit 2,NodeJS,Easy,High,Video,6,4.87,452
+Web Development,Unit 2,ExpressJS,Medium,Low,Video,1,4.89,91
+Web Development,Unit 2,REST API,Easy,Very High,PYQ,2,4.58,491
+Web Development,Unit 2,Authentication,Hard,Medium,Video,6,3.63,394
+Web Development,Unit 2,JWT,Medium,Very High,Notes,9,3.97,236
+Web Development,Unit 2,Frontend Frameworks,Medium,Very High,Book,9,3.88,222
+Web Development,Unit 3,Database Integration,Hard,High,PPT,9,4.61,265
+Machine Learning,Unit 1,Linear Regression,Medium,High,Video,7,4.8,320
+Machine Learning,Unit 2,Decision Trees,Hard,Very High,Notes,9,4.9,450
+Machine Learning,Unit 3,Clustering,Medium,Medium,PPT,6,4.5,210
+Data Science,Unit 1,Data Cleaning,Easy,High,Video,8,4.7,500
+Data Science,Unit 2,Visualization,Medium,High,Notes,7,4.6,380
+Data Science,Unit 3,Statistical Inference,Hard,Very High,PPT,9,4.4,290
+Mobile App Dev,Unit 1,React Native Basics,Medium,High,Video,8,4.8,420
+Mobile App Dev,Unit 2,Navigation,Easy,Medium,Notes,6,4.5,230
+Mobile App Dev,Unit 3,State Management,Hard,Very High,PPT,10,4.9,550
+Distributed Systems,Unit 1,Consistency Models,Hard,High,Notes,8,4.3,180
+Distributed Systems,Unit 2,Paxos Algorithm,Hard,Critical,Video,10,4.7,250
+Distributed Systems,Unit 3,MapReduce,Medium,High,PPT,7,4.5,310
+Big Data,Unit 1,Hadoop Ecosystem,Medium,High,Video,8,4.6,400
+Big Data,Unit 2,Spark Streaming,Hard,Very High,Notes,9,4.8,350
+Big Data,Unit 3,NoSQL Databases,Medium,Medium,PPT,6,4.4,280

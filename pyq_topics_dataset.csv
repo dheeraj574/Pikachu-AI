@@ -1,0 +1,238 @@
+subject,topic,year,marks,question_type,difficulty,occurrence_count,importance_score
+DBMS,ER Model,2021,8,MCQ,Easy,2,0.7
+DBMS,ER Model,2024,8,Theory,Easy,2,0.96
+DBMS,Normalization,2021,12,Problem,Medium,1,0.71
+DBMS,SQL,2020,10,Theory,Easy,3,0.51
+DBMS,SQL,2023,8,Short Answer,Hard,3,0.67
+DBMS,SQL,2025,15,Problem,Medium,3,0.79
+DBMS,Transactions,2025,15,Long Answer,Easy,3,0.78
+DBMS,Transactions,2023,10,Short Answer,Medium,3,0.86
+DBMS,Transactions,2024,8,Short Answer,Hard,3,0.61
+DBMS,Indexing,2024,15,Long Answer,Hard,3,0.96
+DBMS,Indexing,2022,15,Problem,Hard,3,0.82
+DBMS,Indexing,2025,12,Theory,Hard,3,0.88
+DBMS,Joins,2022,5,Long Answer,Medium,6,0.69
+DBMS,Joins,2020,5,Long Answer,Medium,6,0.64
+DBMS,Joins,2025,5,Short Answer,Easy,6,0.6
+DBMS,Joins,2021,15,MCQ,Hard,6,0.67
+DBMS,Joins,2024,12,Theory,Hard,6,0.63
+DBMS,Joins,2021,10,MCQ,Medium,6,0.69
+DBMS,Functional Dependencies,2024,12,MCQ,Hard,2,0.85
+DBMS,Functional Dependencies,2021,5,Short Answer,Hard,2,0.95
+DBMS,Concurrency Control,2024,5,Long Answer,Medium,3,0.8
+DBMS,Concurrency Control,2023,15,Long Answer,Hard,3,0.64
+DBMS,Concurrency Control,2024,15,MCQ,Medium,3,0.88
+Data Structures,Arrays,2020,8,Problem,Medium,4,0.8
+Data Structures,Arrays,2020,12,Theory,Hard,4,0.98
+Data Structures,Arrays,2024,15,Theory,Medium,4,0.95
+Data Structures,Arrays,2022,15,MCQ,Easy,4,0.86
+Data Structures,Linked Lists,2021,15,Short Answer,Easy,6,0.77
+Data Structures,Linked Lists,2021,12,Short Answer,Hard,6,0.91
+Data Structures,Linked Lists,2025,15,MCQ,Easy,6,0.94
+Data Structures,Linked Lists,2025,8,Theory,Easy,6,0.83
+Data Structures,Linked Lists,2025,10,MCQ,Medium,6,0.93
+Data Structures,Linked Lists,2022,10,MCQ,Hard,6,0.52
+Data Structures,Stacks,2023,12,MCQ,Easy,1,0.53
+Data Structures,Queues,2022,15,MCQ,Medium,2,0.5
+Data Structures,Queues,2025,8,Problem,Easy,2,0.83
+Data Structures,Trees,2024,12,Long Answer,Medium,5,0.82
+Data Structures,Trees,2024,5,Theory,Medium,5,0.9
+Data Structures,Trees,2025,15,Problem,Easy,5,0.65
+Data Structures,Trees,2023,15,MCQ,Easy,5,0.6
+Data Structures,Trees,2024,8,Theory,Hard,5,0.97
+Data Structures,Graphs,2020,10,MCQ,Hard,4,0.76
+Data Structures,Graphs,2024,10,Problem,Medium,4,0.98
+Data Structures,Graphs,2023,8,MCQ,Medium,4,0.79
+Data Structures,Graphs,2020,5,Short Answer,Medium,4,0.97
+Data Structures,Sorting,2024,5,MCQ,Hard,3,0.62
+Data Structures,Sorting,2025,10,Short Answer,Hard,3,0.82
+Data Structures,Sorting,2024,15,Problem,Medium,3,0.68
+Data Structures,Dynamic Programming,2024,10,Theory,Hard,6,0.85
+Data Structures,Dynamic Programming,2025,12,Theory,Easy,6,0.58
+Data Structures,Dynamic Programming,2023,15,Problem,Hard,6,0.63
+Data Structures,Dynamic Programming,2025,8,Problem,Hard,6,0.74
+Data Structures,Dynamic Programming,2023,10,Theory,Easy,6,0.78
+Data Structures,Dynamic Programming,2025,12,Problem,Easy,6,0.7
+Operating Systems,Processes,2023,8,Short Answer,Medium,2,0.93
+Operating Systems,Processes,2025,10,MCQ,Medium,2,0.92
+Operating Systems,Threads,2021,5,Short Answer,Hard,3,0.99
+Operating Systems,Threads,2025,5,Problem,Medium,3,0.66
+Operating Systems,Threads,2022,10,MCQ,Hard,3,0.62
+Operating Systems,Scheduling,2024,10,MCQ,Hard,6,0.87
+Operating Systems,Scheduling,2024,10,Short Answer,Easy,6,0.63
+Operating Systems,Scheduling,2020,5,Short Answer,Easy,6,0.59
+Operating Systems,Scheduling,2020,8,Problem,Hard,6,0.95
+Operating Systems,Scheduling,2025,12,Problem,Hard,6,0.68
+Operating Systems,Scheduling,2020,12,Long Answer,Easy,6,0.61
+Operating Systems,Deadlocks,2022,15,Theory,Hard,5,0.88
+Operating Systems,Deadlocks,2023,5,Long Answer,Easy,5,0.66
+Operating Systems,Deadlocks,2022,10,Short Answer,Medium,5,0.93
+Operating Systems,Deadlocks,2025,15,Theory,Easy,5,0.94
+Operating Systems,Deadlocks,2025,15,Problem,Easy,5,0.63
+Operating Systems,Paging,2023,12,Theory,Easy,3,0.62
+Operating Systems,Paging,2020,5,MCQ,Hard,3,0.7
+Operating Systems,Paging,2020,12,Long Answer,Easy,3,0.92
+Operating Systems,Virtual Memory,2021,12,Long Answer,Medium,2,0.54
+Operating Systems,Virtual Memory,2022,12,MCQ,Hard,2,0.95
+Operating Systems,File Systems,2024,8,Problem,Easy,6,0.78
+Operating Systems,File Systems,2024,12,Long Answer,Hard,6,0.78
+Operating Systems,File Systems,2022,15,Problem,Medium,6,0.83
+Operating Systems,File Systems,2022,8,Problem,Medium,6,0.92
+Operating Systems,File Systems,2023,12,Long Answer,Medium,6,0.96
+Operating Systems,File Systems,2025,8,Short Answer,Hard,6,0.55
+Operating Systems,Synchronization,2022,10,Long Answer,Hard,5,0.98
+Operating Systems,Synchronization,2020,5,Theory,Hard,5,0.81
+Operating Systems,Synchronization,2025,15,Theory,Medium,5,0.74
+Operating Systems,Synchronization,2020,15,Short Answer,Easy,5,0.52
+Operating Systems,Synchronization,2020,10,Short Answer,Hard,5,0.53
+Computer Networks,OSI Model,2020,12,MCQ,Hard,2,0.87
+Computer Networks,OSI Model,2021,8,MCQ,Medium,2,0.96
+Computer Networks,TCP,2022,15,Short Answer,Hard,2,0.89
+Computer Networks,TCP,2025,15,MCQ,Medium,2,0.81
+Computer Networks,UDP,2022,8,Short Answer,Easy,6,0.89
+Computer Networks,UDP,2024,5,Long Answer,Easy,6,0.73
+Computer Networks,UDP,2020,10,Long Answer,Medium,6,0.62
+Computer Networks,UDP,2020,5,Theory,Easy,6,0.98
+Computer Networks,UDP,2020,8,Short Answer,Hard,6,0.8
+Computer Networks,UDP,2020,15,Theory,Easy,6,0.51
+Computer Networks,Routing,2025,15,Problem,Medium,1,0.53
+Computer Networks,IP Addressing,2021,5,Long Answer,Hard,1,0.6
+Computer Networks,Congestion Control,2022,10,Short Answer,Easy,4,0.86
+Computer Networks,Congestion Control,2023,12,Theory,Medium,4,0.98
+Computer Networks,Congestion Control,2021,15,MCQ,Medium,4,0.54
+Computer Networks,Congestion Control,2023,10,Problem,Hard,4,0.78
+Computer Networks,Application Layer,2024,12,Short Answer,Easy,3,0.97
+Computer Networks,Application Layer,2021,12,Long Answer,Easy,3,0.73
+Computer Networks,Application Layer,2022,10,Long Answer,Medium,3,0.71
+Computer Networks,Network Security,2021,15,Problem,Medium,2,0.67
+Computer Networks,Network Security,2025,10,Problem,Hard,2,0.81
+COA,Number Systems,2025,15,MCQ,Hard,6,0.87
+COA,Number Systems,2022,8,Problem,Hard,6,0.91
+COA,Number Systems,2020,15,MCQ,Hard,6,0.57
+COA,Number Systems,2023,5,Problem,Medium,6,0.84
+COA,Number Systems,2020,5,MCQ,Hard,6,0.93
+COA,Number Systems,2022,12,Short Answer,Hard,6,0.63
+COA,Boolean Algebra,2023,10,Long Answer,Hard,2,0.97
+COA,Boolean Algebra,2022,15,MCQ,Hard,2,0.71
+COA,Pipeline,2022,15,Short Answer,Hard,6,0.59
+COA,Pipeline,2022,12,Short Answer,Medium,6,0.51
+COA,Pipeline,2022,5,Theory,Easy,6,0.68
+COA,Pipeline,2021,12,Theory,Medium,6,0.55
+COA,Pipeline,2021,15,Long Answer,Easy,6,0.9
+COA,Pipeline,2025,10,Long Answer,Hard,6,0.71
+COA,Cache Memory,2021,15,MCQ,Hard,6,0.69
+COA,Cache Memory,2022,5,Short Answer,Easy,6,0.75
+COA,Cache Memory,2024,15,Theory,Medium,6,0.57
+COA,Cache Memory,2021,12,Problem,Easy,6,0.61
+COA,Cache Memory,2025,10,Theory,Easy,6,0.89
+COA,Cache Memory,2021,15,Theory,Medium,6,0.82
+COA,Instruction Cycle,2023,5,Long Answer,Easy,6,0.73
+COA,Instruction Cycle,2025,8,Problem,Medium,6,0.74
+COA,Instruction Cycle,2022,8,Theory,Easy,6,0.88
+COA,Instruction Cycle,2021,8,Long Answer,Medium,6,0.86
+COA,Instruction Cycle,2022,5,Long Answer,Easy,6,0.63
+COA,Instruction Cycle,2021,12,Short Answer,Easy,6,0.65
+COA,ALU,2020,10,Short Answer,Hard,6,1.0
+COA,ALU,2024,5,Short Answer,Hard,6,0.66
+COA,ALU,2023,10,MCQ,Easy,6,0.88
+COA,ALU,2023,10,Short Answer,Hard,6,0.92
+COA,ALU,2025,12,Short Answer,Hard,6,0.72
+COA,ALU,2024,8,Theory,Medium,6,0.7
+COA,Registers,2022,10,Theory,Medium,5,0.95
+COA,Registers,2020,8,Short Answer,Medium,5,0.67
+COA,Registers,2024,8,Long Answer,Hard,5,0.84
+COA,Registers,2021,10,Theory,Hard,5,0.69
+COA,Registers,2022,8,Theory,Easy,5,0.88
+COA,Addressing Modes,2023,8,Theory,Hard,4,0.83
+COA,Addressing Modes,2025,15,Long Answer,Medium,4,0.53
+COA,Addressing Modes,2023,10,Long Answer,Hard,4,0.8
+COA,Addressing Modes,2020,12,MCQ,Easy,4,0.58
+Automata,DFA,2021,5,Short Answer,Hard,6,0.89
+Automata,DFA,2025,8,MCQ,Easy,6,0.96
+Automata,DFA,2025,10,MCQ,Medium,6,0.56
+Automata,DFA,2023,15,Long Answer,Hard,6,0.67
+Automata,DFA,2021,10,Theory,Easy,6,0.9
+Automata,DFA,2022,10,Long Answer,Easy,6,0.67
+Automata,NFA,2022,15,Long Answer,Easy,4,0.61
+Automata,NFA,2025,10,Short Answer,Easy,4,0.93
+Automata,NFA,2020,10,Theory,Medium,4,0.91
+Automata,NFA,2025,5,Problem,Easy,4,0.9
+Automata,Regular Expressions,2020,15,Long Answer,Hard,4,0.51
+Automata,Regular Expressions,2023,8,Problem,Easy,4,0.83
+Automata,Regular Expressions,2020,10,Short Answer,Hard,4,0.72
+Automata,Regular Expressions,2024,12,Theory,Easy,4,0.97
+Automata,CFG,2021,15,Theory,Hard,6,0.67
+Automata,CFG,2022,5,Theory,Hard,6,0.53
+Automata,CFG,2020,12,MCQ,Easy,6,0.68
+Automata,CFG,2022,12,MCQ,Hard,6,0.55
+Automata,CFG,2020,12,Short Answer,Medium,6,0.87
+Automata,CFG,2024,8,Long Answer,Easy,6,0.61
+Automata,PDA,2021,5,MCQ,Hard,6,0.7
+Automata,PDA,2025,12,Problem,Medium,6,0.8
+Automata,PDA,2024,5,Theory,Medium,6,0.58
+Automata,PDA,2022,12,Short Answer,Medium,6,0.96
+Automata,PDA,2025,8,Theory,Hard,6,0.86
+Automata,PDA,2022,10,MCQ,Easy,6,0.71
+Automata,Turing Machine,2024,15,Problem,Easy,1,0.54
+Automata,Pumping Lemma,2021,5,Problem,Hard,4,0.81
+Automata,Pumping Lemma,2025,15,Problem,Hard,4,0.97
+Automata,Pumping Lemma,2021,10,Theory,Easy,4,0.92
+Automata,Pumping Lemma,2025,5,Long Answer,Medium,4,0.76
+Automata,Chomsky Hierarchy,2025,10,Long Answer,Medium,5,0.75
+Automata,Chomsky Hierarchy,2023,5,MCQ,Easy,5,0.53
+Automata,Chomsky Hierarchy,2022,8,Short Answer,Easy,5,0.96
+Automata,Chomsky Hierarchy,2025,12,Problem,Hard,5,0.85
+Automata,Chomsky Hierarchy,2022,8,Problem,Easy,5,0.58
+Compiler Design,Lexical Analysis,2025,12,Short Answer,Medium,3,0.51
+Compiler Design,Lexical Analysis,2021,5,Short Answer,Hard,3,0.66
+Compiler Design,Lexical Analysis,2025,10,Long Answer,Medium,3,0.96
+Compiler Design,Parsing,2020,5,Long Answer,Hard,2,0.98
+Compiler Design,Parsing,2022,12,Short Answer,Hard,2,0.74
+Compiler Design,Syntax Trees,2023,10,MCQ,Hard,5,0.75
+Compiler Design,Syntax Trees,2023,12,Theory,Medium,5,0.57
+Compiler Design,Syntax Trees,2021,8,Theory,Medium,5,0.97
+Compiler Design,Syntax Trees,2020,10,MCQ,Easy,5,0.62
+Compiler Design,Syntax Trees,2024,5,Long Answer,Hard,5,1.0
+Compiler Design,Intermediate Code,2021,8,Short Answer,Easy,6,0.66
+Compiler Design,Intermediate Code,2025,10,MCQ,Medium,6,0.93
+Compiler Design,Intermediate Code,2020,10,Theory,Hard,6,0.95
+Compiler Design,Intermediate Code,2020,5,Long Answer,Easy,6,0.56
+Compiler Design,Intermediate Code,2023,12,Short Answer,Easy,6,0.67
+Compiler Design,Intermediate Code,2023,8,Long Answer,Medium,6,0.65
+Compiler Design,Code Optimization,2021,15,Short Answer,Easy,6,0.63
+Compiler Design,Code Optimization,2020,5,Problem,Hard,6,0.72
+Compiler Design,Code Optimization,2020,15,Long Answer,Medium,6,0.85
+Compiler Design,Code Optimization,2020,8,Theory,Hard,6,0.94
+Compiler Design,Code Optimization,2025,10,Short Answer,Easy,6,0.8
+Compiler Design,Code Optimization,2021,15,Long Answer,Easy,6,0.73
+Compiler Design,Code Generation,2024,10,Theory,Easy,2,0.97
+Compiler Design,Code Generation,2023,12,Short Answer,Medium,2,0.61
+Compiler Design,YACC,2021,12,Problem,Easy,3,0.79
+Compiler Design,YACC,2021,8,Short Answer,Easy,3,0.56
+Compiler Design,YACC,2020,15,Short Answer,Hard,3,0.7
+Compiler Design,LEX,2024,10,Long Answer,Hard,2,0.58
+Compiler Design,LEX,2021,15,Short Answer,Hard,2,0.96
+Algorithms,Asymptotic Analysis,2025,5,Short Answer,Hard,5,0.83
+Algorithms,Asymptotic Analysis,2025,15,Theory,Hard,5,0.61
+Algorithms,Asymptotic Analysis,2024,5,Theory,Medium,5,0.78
+Algorithms,Asymptotic Analysis,2024,12,Problem,Easy,5,0.6
+Algorithms,Asymptotic Analysis,2024,5,Theory,Medium,5,0.73
+Algorithms,Divide and Conquer,2023,12,Problem,Medium,2,0.95
+Algorithms,Divide and Conquer,2021,10,Long Answer,Hard,2,0.69
+Algorithms,Greedy,2021,5,MCQ,Easy,5,0.98
+Algorithms,Greedy,2023,12,Theory,Easy,5,0.51
+Algorithms,Greedy,2022,8,MCQ,Easy,5,0.64
+Algorithms,Greedy,2022,12,MCQ,Easy,5,0.94
+Algorithms,Greedy,2021,15,Short Answer,Easy,5,0.71
+Algorithms,Dynamic Programming,2023,12,Theory,Medium,5,0.58
+Algorithms,Dynamic Programming,2021,12,Long Answer,Hard,5,0.65
+Algorithms,Dynamic Programming,2024,10,Short Answer,Medium,5,0.86
+Algorithms,Dynamic Programming,2021,8,Short Answer,Hard,5,0.61
+Algorithms,Dynamic Programming,2022,12,Theory,Medium,5,0.69
+Algorithms,Backtracking,2021,10,MCQ,Hard,3,0.93
+Algorithms,Backtracking,2023,5,MCQ,Easy,3,0.56
+Algorithms,Backtracking,2025,12,Long Answer,Easy,3,0.89
+Algorithms,Graph Algorithms,2024,8,Problem,Medium,2,0.6
+Algorithms,Graph Algorithms,2025,5,Problem,Medium,2,0.5
+Algorithms,NP Complete,2025,5,Problem,Hard,2,1.0
+Algorithms,NP Complete,2025,15,Long Answer,Hard,2,0.97
