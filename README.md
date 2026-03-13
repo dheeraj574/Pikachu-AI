@@ -186,17 +186,10 @@ Academic resource discovery
 
 Lakku Dheeraj Reddy
 
+P E K KAUSHIK
+
 BTech CSE – GITAM University
 
-Data Science Intern
-
-Web Developer
-
-🔗 LinkedIn:
-https://www.linkedin.com/in/dheeraj-reddy-lakku-81b2a9320/
-
-📧 Email:
-dheerajreddy574@gmail.com
 
 
 ⭐ Contribution
