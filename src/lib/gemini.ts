@@ -1,51 +1,39 @@
-import { GoogleGenAI } from "@google/genai";
+type ChatHistoryItem = {
+  role: "user" | "model";
+  parts: { text: string }[];
+};
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
-
-export async function generateSummary(content: string) {
-  const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
-    contents: `Summarize the following academic content into concise bullet points for quick revision: ${content}`,
+async function postJson<T>(url: string, body: unknown): Promise<T> {
+  const response = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
   });
-  return response.text;
+
+  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(data.error || "Request failed");
+  }
+
+  return data as T;
 }
 
-export async function chatWithAI(message: string, history: { role: 'user' | 'model', parts: { text: string }[] }[]) {
-  const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
-    contents: [...history, { role: 'user', parts: [{ text: message }] }],
-    config: {
-      systemInstruction: "You are Pikachu AI, a helpful academic assistant for university students. Provide concise, accurate, and encouraging study advice, explain concepts, and help with academic resources.",
-    }
-  });
-  return response.text;
+export async function generateSummary(content: string) {
+  const data = await postJson<{ text: string }>("/api/ai/summary", { content });
+  return data.text;
+}
+
+export async function chatWithAI(message: string, history: ChatHistoryItem[]) {
+  const data = await postJson<{ text: string }>("/api/ai/chat", { message, history });
+  return data.text;
 }
 
 export async function getImportantQuestions(subject: string, topics: string[]) {
-  const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
-    contents: `Based on the subject "${subject}" and topics [${topics.join(", ")}], predict 5 high-yield "Important Questions" that are likely to appear in an exam. Provide them as a JSON array of strings.`,
-    config: { responseMimeType: "application/json" }
-  });
-  try {
-    return JSON.parse(response.text || "[]");
-  } catch (e) {
-    return [];
-  }
+  const data = await postJson<{ items: string[] }>("/api/ai/important-questions", { subject, topics });
+  return data.items;
 }
 
 export async function getSmartRecommendations(query: string, availableResources: any[]) {
-  const context = availableResources.slice(0, 20).map(r => `${r.topic} (${r.resource_type})`).join(", ");
-  const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
-    contents: `User is searching for: "${query}". 
-    Available resources: [${context}]. 
-    Recommend the top 3 most relevant resources from the list. Return a JSON array of objects with "topic" and "reason" fields.`,
-    config: { responseMimeType: "application/json" }
-  });
-  try {
-    return JSON.parse(response.text || "[]");
-  } catch (e) {
-    return [];
-  }
+  const data = await postJson<{ items: any[] }>("/api/ai/recommendations", { query, availableResources });
+  return data.items;
 }

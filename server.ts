@@ -5,10 +5,13 @@ import fs from "fs";
 import { parse } from "csv-parse/sync";
 import cors from "cors";
 import Database from "better-sqlite3";
+import { GoogleGenAI } from "@google/genai";
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
+  const geminiApiKey = process.env.GEMINI_API_KEY || "";
+  const ai = geminiApiKey ? new GoogleGenAI({ apiKey: geminiApiKey }) : null;
 
   app.use(cors());
   app.use(express.json());
@@ -195,6 +198,101 @@ async function startServer() {
       )
     `).all() as { subject: string }[];
     res.json(results.map(r => r.subject));
+  });
+
+  app.post("/api/ai/summary", async (req, res) => {
+    if (!ai) {
+      return res.status(500).json({ error: "GEMINI_API_KEY is not configured on the server." });
+    }
+
+    try {
+      const { content } = req.body;
+      const response = await ai.models.generateContent({
+        model: "gemini-2.5-flash",
+        contents: `Summarize the following academic content into concise bullet points for quick revision: ${content}`,
+      });
+      res.json({ text: response.text || "" });
+    } catch (error) {
+      console.error("Gemini summary error:", error);
+      res.status(500).json({ error: "Failed to generate summary." });
+    }
+  });
+
+  app.post("/api/ai/chat", async (req, res) => {
+    if (!ai) {
+      return res.status(500).json({ error: "GEMINI_API_KEY is not configured on the server." });
+    }
+
+    try {
+      const { message, history } = req.body;
+      const response = await ai.models.generateContent({
+        model: "gemini-2.5-flash",
+        contents: [...history, { role: "user", parts: [{ text: message }] }],
+        config: {
+          systemInstruction:
+            "You are Pikachu AI, a helpful academic assistant for university students. Provide concise, accurate, and encouraging study advice, explain concepts, and help with academic resources.",
+        },
+      });
+      res.json({ text: response.text || "" });
+    } catch (error) {
+      console.error("Gemini chat error:", error);
+      res.status(500).json({ error: "Failed to get AI response." });
+    }
+  });
+
+  app.post("/api/ai/important-questions", async (req, res) => {
+    if (!ai) {
+      return res.status(500).json({ error: "GEMINI_API_KEY is not configured on the server." });
+    }
+
+    try {
+      const { subject, topics } = req.body;
+      const response = await ai.models.generateContent({
+        model: "gemini-2.5-flash",
+        contents: `Based on the subject "${subject}" and topics [${topics.join(", ")}], predict 5 high-yield "Important Questions" that are likely to appear in an exam. Provide them as a JSON array of strings.`,
+        config: { responseMimeType: "application/json" },
+      });
+
+      try {
+        res.json({ items: JSON.parse(response.text || "[]") });
+      } catch {
+        res.json({ items: [] });
+      }
+    } catch (error) {
+      console.error("Gemini important questions error:", error);
+      res.status(500).json({ error: "Failed to generate important questions." });
+    }
+  });
+
+  app.post("/api/ai/recommendations", async (req, res) => {
+    if (!ai) {
+      return res.status(500).json({ error: "GEMINI_API_KEY is not configured on the server." });
+    }
+
+    try {
+      const { query, availableResources } = req.body;
+      const context = (availableResources || [])
+        .slice(0, 20)
+        .map((r: { topic?: string; resource_type?: string }) => `${r.topic} (${r.resource_type})`)
+        .join(", ");
+
+      const response = await ai.models.generateContent({
+        model: "gemini-2.5-flash",
+        contents: `User is searching for: "${query}".
+Available resources: [${context}].
+Recommend the top 3 most relevant resources from the list. Return a JSON array of objects with "topic" and "reason" fields.`,
+        config: { responseMimeType: "application/json" },
+      });
+
+      try {
+        res.json({ items: JSON.parse(response.text || "[]") });
+      } catch {
+        res.json({ items: [] });
+      }
+    } catch (error) {
+      console.error("Gemini recommendation error:", error);
+      res.status(500).json({ error: "Failed to generate recommendations." });
+    }
   });
 
   // Vite middleware for development
