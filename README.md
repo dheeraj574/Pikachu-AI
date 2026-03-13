@@ -1,59 +1,218 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+⚡ Pikachu AI – Smart Academic Resource Discovery Platform
 
-# Run and deploy your AI Studio app
+An AI-powered platform that helps students quickly discover reliable academic resources like notes, PPTs, previous year papers, textbooks, and explanations aligned with their courses.
 
-This contains everything you need to run your app locally.
+🌐 Live Demo:
+👉 https://pikachu-ai-production.up.railway.app
+
+📚 Problem Statement
+
+During exams, students struggle to find:
+
+Notes
+
+PPTs
+
+Previous Year Questions
+
+Textbooks
+
+Quick concept explanations
+
+These resources are scattered across WhatsApp groups, Google Drive, LMS portals, and personal folders.
+
+Solution: Pikachu AI centralizes everything and uses AI to help students discover resources instantly.
+
+🚀 Features
+🔍 Smart Resource Search
+
+Search by subject
+
+Search by topic
+
+Search by keywords
+
+AI assisted discovery
+
+🤖 AI Assistant (Gemini Powered)
+
+Ask academic questions
+
+Get explanations
+
+Resource recommendations
+
+Topic guidance
+
+📂 Resource Management
+
+Notes repository
+
+PYQ datasets
+
+Topic categorization
+
+Metadata storage
+
+🎓 Student Friendly UI
+
+Clean dashboard
+
+Fast search experience
+
+Organized resources
+
+Mobile responsive design
+
+🏗️ System Architecture
+Frontend (React + Vite)
+        │
+        │ API Calls
+        ▼
+Backend (Node.js + Express)
+        │
+        ├── Gemini AI API
+        ├── SQLite Database
+        └── Resource Dataset
+🛠️ Tech Stack
+Frontend
+
+React
+
+Vite
+
+TypeScript
+
+CSS
+
+Backend
+
+Node.js
+
+Express.js
+
+TypeScript
+
+AI Integration
+
+Google Gemini API
+
+Database
+
+SQLite
+
+Deployment:
+Railway
+
+⚙️ Installation Guide
+Prerequisites
+
+Install:
+
+Node.js
+
+npm
+
+Run Locally
+1 Install dependencies
+npm install
+2 Setup environment variables
+
+Create .env file:
+GEMINI_API_KEY=your_api_key_here
+3 Run development server
+npm run dev
+4 Start backend
+npm start
 
 
-## Run Locally
+🌍 Deployment (Railway)
+Steps followed:
 
-**Prerequisites:**  Node.js
+1 Push project to GitHub
+
+2 Create Railway project
+
+3 Connect GitHub repo
+
+4 Add environment variables:
+
+GEMINI_API_KEY=your_key
+
+5 Build command:
+
+npm install && npm run build
+
+6 Start command:
+
+npm start
+
+7 Deploy 🚀
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
 
-## Deploy For Free
+📊 Future Improvements
 
-This project is not a static frontend only app. It uses:
+User authentication
 
-- a React frontend built by Vite
-- an Express server in `server.ts`
-- a local SQLite database file
+Resource upload by students
 
-Because of that, deploy it as a single Node.js web service.
+Rating system
 
-### Best free option without a subscription
+Recommendation engine
 
-Koyeb is a good fit for this project because its free plan can deploy one web service without requiring a paid subscription.
+Vector search (RAG)
 
-### Before deploying
+Cloud database
 
-1. Push this project to GitHub.
-2. Add a `.env` value for `GEMINI_API_KEY`.
-3. Keep in mind that SQLite data written after deploy may not persist forever on free hosting unless you attach persistent storage.
+Faculty resource verification
 
-### Koyeb steps
 
-1. Create a free account at Koyeb.
-2. Click `Create App`.
-3. Choose `GitHub` and select this repository.
-4. For the service type, choose `Web Service`.
-5. Use these values:
-   - Build command: `npm install && npm run build`
-   - Start command: `npm start`
-   - Port: leave auto-detect enabled
-6. Add environment variable:
-   - `GEMINI_API_KEY=your_key_here`
-7. Deploy.
 
-After deployment, Koyeb will give you a public URL like `https://your-app.koyeb.app`.
+🎯 Use Cases
 
-### Important limitation
+Exam preparation
 
-The app currently uses a local SQLite file. That is fine for demos and personal testing, but any new data added in production can be lost on some free hosting environments after a restart or redeploy.
+Last minute revision
+
+PYQ practice
+
+Concept clarification
+
+Academic resource discovery
+
+
+👨‍💻 Author
+
+Lakku Dheeraj Reddy
+
+BTech CSE – GITAM University
+
+Data Science Intern
+
+Web Developer
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/dheeraj-reddy-lakku-81b2a9320/
+
+📧 Email:
+dheerajreddy574@gmail.com
+
+
+⭐ Contribution
+
+Contributions are welcome!
+
+If you want to improve this project:
+
+1 Fork repo
+2 Create feature branch
+3 Commit changes
+4 Open PR
+
+📜 License
+
+This project is for academic and educational purposes.
+
+⚡ Project Vision:
+To build a central AI powered academic ecosystem where students never struggle to find the right resource at the right time.
